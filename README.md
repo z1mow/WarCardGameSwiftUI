@@ -15,8 +15,8 @@ A simple card game application where you compete against the CPU by drawing rand
 
 ## Screenshots
 
-![Game Screenshot 1](screenshot1.png)
-![Game Screenshot 2](screenshot2.png)
+  <img src="screenshot1.png" alt="Game Screenshot 1" width="250"/>
+  <img src="screenshot2.png" alt="Game Screenshot 2" width="250"/>
 
 ## English
 
