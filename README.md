@@ -1,85 +1,61 @@
-# War Card Game
+# War Card Game 🃏
 
-<!-- Video and Screenshots Section -->
+A simple card game application where you compete against the CPU by drawing random cards. Developed using SwiftUI, this is my first project using Apple's declarative UI framework.
+
+## Demo Video / Demo Videosu
+
 <div align="center">
-  <video width="320" height="240" controls>
-    <source src="simulator_recording.mov" type="video/quicktime">
-    Your browser does not support the video tag.
-  </video>
-  <img src="screenshot1.png" alt="Game Screenshot 1" width="250"/>
-  <img src="screenshot2.png" alt="Game Screenshot 2" width="250"/>
+  <p>
+    <a href="simulator_recording.mov">
+      ▶️ Watch Demo Video / Demo Videosunu İzle
+    </a>
+  </p>
+  <p><i>Note: After uploading simulator_recording.mov to your repository, this link will work.</i></p>
 </div>
+
+## Screenshots
+
+![Game Screenshot 1](screenshot1.png)
+![Game Screenshot 2](screenshot2.png)
 
 ## English
 
-### Overview
-War Card Game is a simple card game application built with SwiftUI. This is my first SwiftUI project, where I explored the fundamentals of Apple's declarative UI framework.
-
-### Game Rules
-- The player and the CPU each draw a random card
-- The higher card wins a point
-- In case of a tie, no points are awarded
-- The game continues until the player decides to reset
-
 ### Features
-- Clean and intuitive user interface
-- Random card generation
-- Score tracking for both player and CPU
-- Reset functionality to start a new game
-- Beautiful card animations
+
+* Simple and addictive card game
+* Player vs CPU gameplay
+* Score tracking for both sides
+* Card comparison mechanics:
+  * Each player draws a random card
+  * Higher card wins a point
+  * Game continues until reset
+* Clean and intuitive user interface
+* Reset functionality to start a new game
 
 ### Technical Details
-- Built with SwiftUI
-- Uses @State properties for reactive UI updates
-- Implements random number generation for card values
-- Custom assets for cards, background, and buttons
 
-### How to Run
+* Framework & UI:
+  * Built with SwiftUI
+  * Uses @State properties for reactive UI updates
+  * Custom card animations
+  * Responsive layout design
+* Game Logic:
+  * Random number generation for card values
+  * Score tracking system
+  * Game state management
+* Assets:
+  * Custom card designs
+  * Beautiful background
+  * Themed buttons and UI elements
+
+### Requirements
+
+* iOS 14.0+
+* Xcode 12.0+
+* Swift 5.0+
+
+### Installation
+
 1. Clone the repository
 2. Open the project in Xcode
-3. Select a simulator or connect your iOS device
-4. Build and run the application
-
-### Future Improvements
-- Add sound effects
-- Implement game rounds
-- Add difficulty levels
-- Create a multiplayer mode
-
----
-
-## Türkçe
-
-### Genel Bakış
-War Card Game (Savaş Kart Oyunu), SwiftUI ile oluşturulmuş basit bir kart oyunu uygulamasıdır. Bu, Apple'ın bildirimsel UI framework'ünün temellerini keşfettiğim ilk SwiftUI projemdir.
-
-### Oyun Kuralları
-- Oyuncu ve CPU her biri rastgele bir kart çeker
-- Daha yüksek kart bir puan kazanır
-- Beraberlik durumunda puan verilmez
-- Oyuncu sıfırlama kararı verene kadar oyun devam eder
-
-### Özellikler
-- Temiz ve sezgisel kullanıcı arayüzü
-- Rastgele kart üretimi
-- Hem oyuncu hem de CPU için puan takibi
-- Yeni bir oyun başlatmak için sıfırlama işlevi
-- Güzel kart animasyonları
-
-### Teknik Detaylar
-- SwiftUI ile oluşturuldu
-- Reaktif UI güncellemeleri için @State özellikleri kullanır
-- Kart değerleri için rastgele sayı üretimi uygular
-- Kartlar, arka plan ve düğmeler için özel varlıklar
-
-### Nasıl Çalıştırılır
-1. Depoyu klonlayın
-2. Projeyi Xcode'da açın
-3. Bir simülatör seçin veya iOS cihazınızı bağlayın
-4. Uygulamayı derleyin ve çalıştırın
-
-### Gelecek İyileştirmeler
-- Ses efektleri ekleme
-- Oyun turları uygulama
-- Zorluk seviyeleri ekleme
-- Çok oyunculu mod oluşturma 
+3. Build and run the application on your preferred simulator or device
