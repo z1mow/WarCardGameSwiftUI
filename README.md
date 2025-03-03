@@ -2,23 +2,16 @@
 
 A simple card game application where you compete against the CPU by drawing random cards. Developed using SwiftUI, this is my first project using Apple's declarative UI framework.
 
-## Demo Video / Demo Videosu
-
-<div align="center">
-  <p>
-    <a href="simulator_recording.mov">
-      ▶️ Watch Demo Video / Demo Videosunu İzle
-    </a>
-  </p>
-  <p><i>Note: After uploading simulator_recording.mov to your repository, this link will work.</i></p>
-</div>
-
 ## Screenshots
 
+<div align="center">
+  <video width="320" height="240" controls>
+    <source src="simulator_recording.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+  </video>
   <img src="screenshot1.png" alt="Game Screenshot 1" width="250"/>
   <img src="screenshot2.png" alt="Game Screenshot 2" width="250"/>
-
-## English
+</div>
 
 ### Features
 
